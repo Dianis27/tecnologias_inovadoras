@@ -1,0 +1,12 @@
+<?php
+$serverName = "DESKTOP-2T8MDPK\LULU";
+$connectionInfo = array("Database"=>"db_autopartes", "UID"=>"sa", "PWD"=>"1459lulu", "CharacterSet"=>"UTF-8");
+$conn_sis = sqlsrv_connect($serverName, $connectionInfo);
+
+if($conn_sis){ 
+    echo"conexion exitosa";
+}else{
+    echo "fallo en la conexion");
+     die( print_r(sqlsrv_errors(), true));
+}
+?>
