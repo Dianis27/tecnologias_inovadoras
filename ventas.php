@@ -21,7 +21,7 @@
 		<nav>
 			<ul>
 				<li><a href="#"><span class="#">Refaccionaria Automotriz</span></a></li>
-				<li><a href="index.html"><span class="icon-home2"></span>Inicio</a></li>
+				<li><a href="index.php"><span class="icon-home2"></span>Inicio</a></li>
 				<li><a href="productos.php"><span class="icon-books"></span>Productos</a></li>
 				<li><a href="empleados.php"><span class="icon-pencil"></span>Empleados</a></li>
                 <li><a href="clientes.php"><span class="icon-address-book"></span>Clientes</a></li>
